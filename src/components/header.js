@@ -2,7 +2,6 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 
-import gatsbyPng from "../images/gatsby-icon.png"
 
 const Header = ({ siteTitle }) => (
   <header
@@ -26,8 +25,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          {/* {siteTitle} */}
-          <img src={gatsbyPng} alt=''/>
+          {siteTitle}       
         </Link>
       </h1>
     </div>
