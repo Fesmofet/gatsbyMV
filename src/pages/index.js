@@ -18,20 +18,14 @@ const IndexPage = ({data}) => {
           const img = getImage(image);
           return (
             <div key={post.id} className="post">
-              <GatsbyImage alt={title} image={img} />
-              <Link to={`/${category}/${url}`} >{title}</Link>
+              <Link to={`/${category}/${url}`} >
+                <GatsbyImage alt={title} image={img} />
+                <p>{title}</p>
+              </Link>
             </div>
           )
         })}
       </div>
-      {/*<p>*/}
-      {/*  <Link to="/about/">About</Link> <br />*/}
-      {/*  <Link to="/methodology/">Methodology</Link> <br />*/}
-      {/*  <Link to="/reviews/">Reviews</Link> <br />*/}
-      {/*  <Link to="/products/">Products</Link> <br />*/}
-      {/*  <Link to="/contacts/">Contacts</Link> <br />*/}
-      {/*  <Link to="/using-typescript/">Go to "Using TypeScript"</Link>*/}
-      {/*</p>*/}
     </Layout>
   )
 }
