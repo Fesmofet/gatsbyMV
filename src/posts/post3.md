@@ -2,6 +2,7 @@
 title: Греческий салат
 category: greece
 url: greek-salad
+image: ../images/gatsby-astronaut.png
 ---
 
 # Греческий салат

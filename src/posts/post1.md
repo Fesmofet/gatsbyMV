@@ -2,6 +2,7 @@
 title: Путешествие в рим
 category: italy
 url: italy-trip
+image: ../images/gatsby-astronaut.png
 ---
 
 # Поездка в Рим

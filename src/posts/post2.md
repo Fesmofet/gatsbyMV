@@ -2,6 +2,7 @@
 title: Римская Пицца
 category: italy
 url: rome-pizza
+image: ../images/gatsby-astronaut.png
 ---
 
 # Римская Пицца
