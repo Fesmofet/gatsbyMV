@@ -19,7 +19,7 @@ const MethodologyPage = ({data}) => {
           return (
             <div key={post.id} className="post">
               <Link to={`/${category}/${url}`} >
-                <GatsbyImage alt={title} image={img} />
+                <GatsbyImage alt={title} image={img} title="Подробнее" />
                 <p>{title}</p>
               </Link>
             </div>
